@@ -31,7 +31,7 @@ mongoose
 
 app.use(
     cors({
-        origin: ["https://the-bookshelf-full-stack.vercel.app/"],
+        origin: ["https://the-bookshelf-full-stack.vercel.app"],
         methods: ["GET", "POST", "PUT", "DELETE"],
         credentials: false
     })
