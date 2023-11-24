@@ -40,7 +40,7 @@ const LoginSide = () => {
         {
           ...inputValue,
         },
-        { withCredentials: true }
+        { withCredentials: false }
       );
       console.log(data);
       const { success, message } = data;
