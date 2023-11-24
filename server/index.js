@@ -26,7 +26,7 @@ app.use(
     cors({
         origin: ["https://the-bookshelf-full-stack.vercel.app/"],
         methods: ["GET", "POST", "PUT", "DELETE"],
-        credentials: true
+        credentials: false
     })
 );
 
