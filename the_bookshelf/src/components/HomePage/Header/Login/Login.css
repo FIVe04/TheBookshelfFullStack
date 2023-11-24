@@ -1,0 +1,34 @@
+.SignUp {
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 0px 20px;
+    padding-right: 120px;
+}
+
+.SignIn {
+    position: absolute;
+    background-color: black;
+    border: 2px black solid;
+    border-radius: 30px;
+    right:0;
+    padding: 0px 20px;
+}
+
+.text_signup {
+    font-size: 15pt;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    cursor: default; 
+}
+
+
+.text_signin {
+    font-size: 15pt;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:white;
+    cursor: default; 
+} 

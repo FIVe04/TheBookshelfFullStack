@@ -1,0 +1,141 @@
+.LoginSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Logo {
+    margin-top: 20px;
+    margin-left: 0;
+    width: 70%;
+}
+
+.textLogin {
+    margin-top: 60px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.formLogin {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.usernameBlock {
+    margin-top: 20px;
+    width: 60%;
+    height: 60px;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px -2px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.textUsername {
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 0px;
+    font-weight: 600;
+    color: #A3A3A3;
+}
+
+.textPassword {
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 0px;
+    font-weight: 600;
+    color: #A3A3A3;
+}
+
+.usernameField {
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.passwordField {
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.passwordBlock {
+    width: 60%;
+    height: 60px;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.loginBtn {
+    margin-top: 60px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    background: #A863DA;
+    width: 60%;
+    height: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.loginGoogleBtn {
+    margin-top: 20px;
+    border: none;
+    border-radius: 7px;
+    background: #99CCF7;
+    width: 60%;
+    /* height: 50px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.signupBtn {
+    width: 60%;
+    height: 60px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    
+    border-radius: 7px;
+    border: 1px solid #A3A3A3;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.orText {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #A3A3A3;
+}
+
+.emailBlock {
+    width: 60%;
+    height: 60px;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+}
+

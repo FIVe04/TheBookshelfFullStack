@@ -1,0 +1,17 @@
+.Bestsellers {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.popular_subsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.popular_text {
+    font-size: 20pt;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}

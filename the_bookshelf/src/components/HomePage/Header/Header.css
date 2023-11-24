@@ -1,0 +1,46 @@
+.Header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.LogoHeader {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 50px;
+}
+
+.Login {
+    display: flex;
+    position: relative;
+    margin-right: 30px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+
+.ProfileDiv {
+    display: flex;
+}
+
+@media (max-width: 570px) {
+    .Header {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Logo {
+        margin-left: 0px;
+    }
+
+    .Login {
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+.title_search {
+    font-size: 20pt;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.Search {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
