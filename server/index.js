@@ -22,21 +22,12 @@ mongoose
     .catch((err) => console.log(err));
 
 
- app.use(function(req,res,next){
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE, PATCH");
-    res.header("Access-Control-Allow-Headers", "Accept, Content-Type, Authorization, X-Requested-With");
-    next();
-  });
 
-app.use(
-    cors({
-        origin: ["https://the-bookshelf-full-stack.vercel.app"],
-        methods: ["GET", "POST", "PUT", "DELETE"],
-        credentials: false
-    })
-);
-
+const corsOptions = {   origin: "*",   methods:
+    "GET,HEAD,PUT,PATCH,POST,DELETE",   allowedHeaders:
+        "Access-Control-Allow-Headers,Access-Control-Allow-Origin,Access-Control-Request-Method,Access-Control-Request-Headers,Origin,Cache-Control,Content-Type,X-Token,X-Refresh-Token",   credentials: true,   preflightContinue: false,  
+    optionsSuccessStatus: 204 };
+app.use(cors(corsOptions));
 
 
 app.use(cookieParser());
