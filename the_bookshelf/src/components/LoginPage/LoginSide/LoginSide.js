@@ -36,7 +36,7 @@ const LoginSide = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://the-bookshelf-full-stack-api.vercel.app//login",
+        "https://the-bookshelf-full-stack-api.vercel.app/login",
         {
           ...inputValue,
         },
