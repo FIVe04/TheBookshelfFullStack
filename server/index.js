@@ -25,7 +25,7 @@ mongoose
 
 const corsOptions = {   origin: "*",   methods:
     "GET,HEAD,PUT,PATCH,POST,DELETE",   allowedHeaders:
-        "Access-Control-Allow-Headers,Access-Control-Allow-Origin,Access-Control-Request-Method,Access-Control-Request-Headers,Origin,Cache-Control,Content-Type,X-Token,X-Refresh-Token",   credentials: true,   preflightContinue: false,  
+        "Access-Control-Allow-Headers,Access-Control-Allow-Origin,Access-Control-Request-Method,Access-Control-Request-Headers,Origin,Cache-Control,Content-Type,X-Token,X-Refresh-Token",   credentials: false,   preflightContinue: false,  
     optionsSuccessStatus: 204 };
 app.use(cors(corsOptions));
 
